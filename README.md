@@ -4,7 +4,7 @@
 <a href=https://www.linkedin.com/in/sarvajeet-narkhede-0444861b1/" target="_black"><img alt="Linkedin" src="https://img.shields.io/badge/Linkedin-0A66C2?style=platic&logo=linkedin&logoColor=white" /></a> 
 
 <p>Welcome to my GitHub, Hope you are having a wonderful day!</p>
-<p>I'm Sarvajeet Narkhede, a passionate self-taught FullStack web developer from India.</p>
+<p>I'm Sarvajeet Narkhede, a passionate self-taught Software Developer from India.</p>
 
 - 🔭 I’m currently brushing up my data structures and algorithm skills.
 - 👯 I’m looking to collaborate on ML Project
