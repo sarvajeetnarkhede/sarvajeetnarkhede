@@ -37,6 +37,4 @@
 
 > <sub>NOTE: Top languages does not indicate my skill level or something like that, it's a GitHub metric.</sub>
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/dede5993-11b9-48d4-8284-04ed7e7b6f77/deploy-status)](https://sarvajeetnarkhede.github.io/sarvajeetnarkhede/)
-
-## [sarvajeetnarkhede.live](https://sarvajeetnarkhede.github.io/sarvajeetnarkhede/)
+## [https://sarvajeetnarkhede.github.io/sarvajeetnarkhede/](https://sarvajeetnarkhede.github.io/sarvajeetnarkhede/)
