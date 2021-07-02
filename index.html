@@ -8,31 +8,11 @@
 
     <!-- =====BOX ICONS===== -->
     <link
-      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
       rel="stylesheet"
     />
 
     <title>Portfolio website complete</title>
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.js"
-      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-      crossorigin="anonymous"></script>
-    <script>
-    function SubForm (){
-    $.ajax({
-        url:'https://api.apispreadsheets.com/data/14890/',
-        headers: {"accessKey": "YOUR_ACCESS_KEY", "secretKey": "YOUR_ACCESS_KEY"}
-        type:'post',
-        data:$("#myForm").serializeArray(),
-        success: function(){
-          alert("Form Data Submitted :)")
-        },
-        error: function(){
-          alert("There was an error :(")
-        }
-    });
-}
-</script>
   </head>
   <body>
     <!--===== HEADER =====-->
@@ -80,14 +60,24 @@
           <a href="Sarvajeet_Narkhede_Resume.pdf" class="button">Resume</a>
         </div>
         <div class="home__social">
-          <a href="https://www.linkedin.com/in/sarvajeet-narkhede-0444861b1/" class="home__social-icon"
+          <a
+            href="https://www.linkedin.com/in/sarvajeet-narkhede-0444861b1/"
+            class="home__social-icon"
+            rel="noopener"
+            target="_blank"
             ><i class="bx bxl-linkedin"></i
           ></a>
-          <a href="https://github.com/sarvajeetnarkhede" class="home__social-icon"><i class="bx bxl-github"></i></a>
+          <a
+            href="https://github.com/sarvajeetnarkhede"
+            class="home__social-icon"
+            target="_blank"
+            rel="noopener"
+            ><i class="bx bxl-github"></i
+          ></a>
         </div>
 
         <div class="home__img">
-          <img src="assets/img/home.png" alt="" />
+          <img src="assets/img/home.png" alt="Hero Image" />
         </div>
       </section>
 
@@ -103,9 +93,9 @@
           <div>
             <h2 class="about__subtitle">I'am Sarvajeet</h2>
             <p class="about__text">
-              Final year student of Computer Engineering studying at 
-              Pimpri Chinchwad College Of Engineering Pune.
-              My area of interest is Machine Learning and Data Science. 
+              Final year student of Computer Engineering studying at Pimpri
+              Chinchwad College Of Engineering Pune. My area of interest is
+              Machine Learning and Data Science.
             </p>
           </div>
         </div>
@@ -118,8 +108,7 @@
         <div class="skills__container bd-grid">
           <div>
             <h2 class="skills__subtitle">Profesional Skills</h2>
-            <p class="skills__text">
-            </p>
+            <p class="skills__text"></p>
             <div class="skills__data">
               <div class="skills__names">
                 <i class="bx bxl-html5 skills__icon"></i>
@@ -142,30 +131,30 @@
             </div>
             <div class="skills__data">
               <div class="skills__names">
-                <i class="bx bxl-javascript skills__icon"></i>
+                <i class="bx bxl-python skills__icon"></i>
                 <span class="skills__name">PYTHON</span>
               </div>
-              <div class="skills__bar skills__js"></div>
+              <div class="skills__bar skills__python"></div>
               <div>
                 <span class="skills__percentage">80%</span>
               </div>
             </div>
             <div class="skills__data">
               <div class="skills__names">
-                <i class="bx bxs-paint skills__icon"></i>
+                <i class="bx bx-data skills__icon"></i>
                 <span class="skills__name">MYSQL</span>
               </div>
-              <div class="skills__bar skills__ux"></div>
+              <div class="skills__bar skills__mysql"></div>
               <div>
                 <span class="skills__percentage">70%</span>
               </div>
             </div>
             <div class="skills__data">
               <div class="skills__names">
-                <i class="bx bxs-paint skills__icon"></i>
+                <i class="bx bxl-react skills__icon"></i>
                 <span class="skills__name">React Js</span>
               </div>
-              <div class="skills__bar skills__ux"></div>
+              <div class="skills__bar skills__react"></div>
               <div>
                 <span class="skills__percentage">30%</span>
               </div>
@@ -212,15 +201,17 @@
           <form action="" class="contact__form" id="myForm">
             <input type="text" placeholder="Name" class="contact__input" />
             <input type="mail" placeholder="Email" class="contact__input" />
-            <input type="text"
+            <input
+              type="text"
               name="Message"
               id=""
               cols="0"
               rows="10"
               class="contact__input"
               placeholder="Message"
-            >
-            <input onclick="SubForm()"
+            />
+            <input
+              onclick="SubForm()"
               type="button"
               value="Submit"
               class="contact__button button"
@@ -234,8 +225,16 @@
     <footer class="footer">
       <p class="footer__title">Sarvajeet</p>
       <div class="footer__social">
-        <a href="https://www.facebook.com/sarvajeet.narkhede/" class="footer__icon"><i class="bx bxl-facebook"></i></a>
-        <a href="https://www.instagram.com/sarvajeet_narkhede/" class="footer__icon"><i class="bx bxl-instagram"></i></a>
+        <a
+          href="https://www.facebook.com/sarvajeet.narkhede/"
+          class="footer__icon"
+          ><i class="bx bxl-facebook"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/sarvajeet_narkhede/"
+          class="footer__icon"
+          ><i class="bx bxl-instagram"></i
+        ></a>
       </div>
     </footer>
 
