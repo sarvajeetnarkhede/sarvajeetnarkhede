@@ -22,4 +22,4 @@
   <img alt="Vs Code" src="https://img.shields.io/badge/-Visual%20Studio%20Code-007ACC?style=flat-square&logo=Visual%20Studio%20Code&logoColor=white" />
 </p>
 
-## [https://sarvajeetnarkhede.github.io/sarvajeetnarkhede/](https://sarvajeetnarkhede.github.io/sarvajeetnarkhede/)
+## [https://sarvajeetnarkhede.github.io/](https://sarvajeetnarkhede.github.io/)
