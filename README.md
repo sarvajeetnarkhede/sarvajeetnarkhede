@@ -1,5 +1,5 @@
 <h2><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> Hi there, I'm Sarvajeet!</h2>
-<a href="https://sarvajeetnarkhede.github.io/sarvajeetnarkhede/" target="_black"><img alt="Protofio" src="https://img.shields.io/badge/sarvajeetnarkhede.live-3A84FF?style=platic&logoColor=white" /></a> 
+<a href="https://sarvajeetnarkhede.github.io/" target="_black"><img alt="Protofio" src="https://img.shields.io/badge/sarvajeetnarkhede.live-3A84FF?style=platic&logoColor=white" /></a> 
 <a href="mailto:sarvajeetnarkhede5072@gmail.com" target="_black"><img alt="Gmail" src="https://img.shields.io/badge/Gmail-EA4335?style=platic&logo=gmail&logoColor=white" /></a> 
 <a href=https://www.linkedin.com/in/sarvajeet-narkhede-0444861b1/" target="_black"><img alt="Linkedin" src="https://img.shields.io/badge/Linkedin-0A66C2?style=platic&logo=linkedin&logoColor=white" /></a>
 
